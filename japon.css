@@ -1,5 +1,5 @@
 .hdbk {
-    background-image: url(asset/img_jap/flag_jap_.jpeg);
+    background-image: url(asset/img_jap/jap_flag.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 108vw;
@@ -11,7 +11,7 @@
 h1 {
     font-size: 8vw;
     text-align: center;
-    padding-top: 24vw;
-    padding-left: 2VW;
+    padding-top: 20vw;
+    padding-left: -1VW;
     margin-bottom: 0vw;
 }
