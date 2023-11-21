@@ -1,15 +1,21 @@
 body {
-    margin: 0;
-    padding: 0;
-}
-
-.jsection {
+    background-color: blue;
     background-image: url(asset/img_jap/jap_flag.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
     padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0;
+}
+
+.jp1 {
+    padding-left: 30vw;
+    padding-right: 30vw;
+    color: rgba(232, 169, 56);
+    text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
 }
 
 .jpadingimg2 {
