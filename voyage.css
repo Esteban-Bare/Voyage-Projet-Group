@@ -1,4 +1,209 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
+
+.continent {
+    display: flex;
+}
+
+.imgcontinent {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.pinEcosse {
+    position: absolute;
+    width: 4vw;
+    margin-left: -30vw;
+    margin-top: 11vw;
+}
+
+.pinEspagne {
+    position: absolute;
+    margin-left: -34vw;
+    margin-top: 26vw;
+    width: 4vw;
+}
+
+.imgeurope {
+    position: relative;
+}
+
+.texteurope {
+    margin-left: 2vw;
+}
+
+.pinGrèce {
+    position: absolute;
+    margin-left: -14vw;
+    margin-top: 32vw;
+    width: 4vw;
+}
+
+.animauxespagne {
+    display: none;
+    width: 11vw;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: 8vw;
+}
+
+.pinEspagne:hover+.animauxespagne {
+    display: block;
+}
+
+.animauxjapon {
+    display: none;
+    width:7vw;
+    position: absolute;
+    margin-top: -19vw;
+    margin-left: 24vw;
+}
+
+.pinJapon {
+    position: absolute;
+    width: 4vw;
+    margin-left: -8vw;
+    margin-top: 3vw;
+}
+
+.imgcontinent1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.imgasie{
+    position: relative;
+}
+
+.pinJapon:hover+.animauxjapon {
+    display: block;
+}
+
+.pinEcosse:hover+.animauxecosse {
+    display: block;
+}
+
+.animauxecosse {
+    display: none;
+    width: 11vw;
+    position: absolute;
+    margin-top: -23vw;
+    margin-left: 11vw;
+}
+
+/* <<<<<<=====-----     Footer     -----=====>>>>>*/
+
+footer {
+    background-color: rgb(19, 42, 32);
+    padding-bottom: 12vw;
+}
+
+.fnav1 {
+    padding-left: 10vw;
+    padding-bottom: 1vw;
+    text-decoration: none;
+}
+
+.ftxt {
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgba(232, 169, 56);
+}
+
+.flex {
+    display: flex;
+}
+
+.fp {
+    color: rgba(232, 169, 56);
+}
+
+.fp:link {
+    color: rgba(232, 169, 56);
+
+}
+
+.fp:visited {
+    color: rgba(232, 169, 56);
+
+}
+
+.fp:hover {
+    color: rgba(232, 169, 56);
+
+}
+
+.fp:focus {
+    color: rgba(232, 169, 56);
+
+}
+
+.fp:active {
+    color: rgba(232, 169, 56);
+
+}
+
+/*<<<<<<=====-----     Formulaire     -----=====>>>>>*/
+form {
+    float: right;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 8em;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 16w;
+    margin-left: 0vw;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: rgba(232, 169, 56);
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 16vw;
+}
+
+button {
+    margin-left: -6.5em;
+}
+
+/* <<<<<<=====-----     Formulaire     -----=====>>>>>*/
