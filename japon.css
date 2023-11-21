@@ -3,24 +3,29 @@ body {
     padding: 0;
 }
 
-.hdbk {
+.jsection {
     background-image: url(asset/img_jap/jap_flag.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 108vw;
-    height: 37vw;
-    padding: 1vw;
-    margin: -11vw;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-h1 {
-    font-size: 8vw;
-    text-align: center;
-    padding-top: 20vw;
-    padding-left: -1VW;
-    margin-bottom: 0vw;
+.jpadingimg2{
+padding-bottom: 5vw;
 }
 
+.jimg {
+    width: 30vw;
+    padding-left: 35vw;
+}
+
+.jimg2 {
+    width: 30vw;
+    padding-left: 13vw;
+}
+
+/*<<<<<<=====-----     Header     -----=====>>>>>*/
 /*<<<<<<=====-----     Footer     -----=====>>>>>*/
 
 footer {
