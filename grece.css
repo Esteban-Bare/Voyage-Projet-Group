@@ -1,7 +1,52 @@
 body{
-    background-image: url();
+    background-image: url(asset/img-grece/grece-santorinifond.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
+}
+/*css commun à chaque page du site*/
+h2{
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 2vw;
+}
+
+p{
+    font-size: x-large;
+}
+
+/*pour le diaporama commun avec ecosse*/
+.slideshow-container {
+    max-width: 35vw;
+    position: relative;
+    margin: auto;
+    padding-bottom: 5vw;
+}
+
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 20vw;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+/*fond noir diapo*/
+.diapo{
+    background-color: black;
+}
+#photo{
+    color: white;
 }
