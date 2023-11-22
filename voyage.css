@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.continent {
+    display: flex;
+}
+
+.imgcontinent {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.pinEcosse {
+    position: absolute;
+    width: 4vw;
+    margin-left: -30vw;
+    margin-top: 11vw;
+}
+
+.pinEspagne {
+    position: absolute;
+    margin-left: -34vw;
+    margin-top: 26vw;
+    width: 4vw;
+}
+
+.imgeurope {
+    position: relative;
+}
+
+.texteurope {
+    margin-left: 2vw;
+}
+
+.pinGrèce {
+    position: absolute;
+    margin-left: -14vw;
+    margin-top: 32vw;
+    width: 4vw;
+}
+
+.animauxespagne {
+    display: none;
+    width: 11vw;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: 8vw;
+}
+
+.pinEspagne:hover+.animauxespagne {
+    display: block;
+}
+
+.animauxjapon {
+    display: none;
+    width:7vw;
+    position: absolute;
+    margin-top: -19vw;
+    margin-left: 24vw;
+}
+
+.pinJapon {
+    position: absolute;
+    width: 4vw;
+    margin-left: -8vw;
+    margin-top: 3vw;
+}
+
+.imgcontinent1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.imgasie{
+    position: relative;
+}
+
+.pinJapon:hover+.animauxjapon {
+    display: block;
+}
+
+.pinEcosse:hover+.animauxecosse {
+    display: block;
+}
+
+.animauxecosse {
+    display: none;
+    width: 11vw;
+    position: absolute;
+    margin-top: -23vw;
+    margin-left: 11vw;
+}

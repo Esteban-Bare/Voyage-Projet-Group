@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -7,14 +7,85 @@
     <title>Document</title>
     <link rel="stylesheet" href="spain.css">
     <link rel="icon" href="./asset/img_esp/esp-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
-    <h1><span class="red">E</span><span class="yellow">s</span><span class="red">p</span><span 
-        class="yellow">a</span><span class="red">ñ</span><span class="yellow">a</span></h1>
+    <header>
+        <img id="image" src="asset/globe2.png" alt="Globe Terrestre">
+        <div class="logo">
+            <h1><a href="index.html">TGS Voyage</a></h1>
+        </div>
+        <img id="image2" src="asset/bonhomme.png" alt="Un homme qui marche">
+    </header>
+    <div id="menu">
+        <ul>
+            <li id="europe">Europe</li>
+            <li><a href="japon.html">Asie de L'est</a></li>
+        </ul>
+    </div>
+
+    <div id="menu2">
+        <ul>
+            <li><a href="ecosse.html">Nicolas.G</a></li>
+            <li><a href="spain.html">Esteban.B</a></li>
+            <li><a href="grece.html">Karine.B</a></li>
+            <li><a href="japon.html">Jean-Phillippe.C</a></li>
+        </ul>
+    </div>
+
+    <div id="menu3">
+        <ul>
+            <li><a href="ecosse.html">Ecosse</a></li>
+            <li><a href="spain.html">Espagne</a></li>
+            <li><a href="grece.html">Grece</a></li>
+        </ul>
+    </div>
+
+    <h2><span class="red">E</span><span class="yellow">s</span><span class="red">p</span><span
+            class="yellow">a</span><span class="red">ñ</span><span class="yellow">a</span></h2>
     <img class="imgspain1" src="./asset/img_esp/croquetasesp.jpg" alt="croquetasesp">
     <img src="./asset/img_esp/tortilla-de-patatas-esp.jpg" alt="tortilla-de-patatas-esp">
     <img src="./asset/img_esp/marineras-murcianas.jpg" alt="marineras-murcianas">
+    <footer>
+        <p class="ftxt">©THE STORMGREEN</p>
+        <nav class="flex fnav1">
+            <p class="fp">Liens vers le wikipédia des pays suivants:</p>
+
+            <p class="fp"><a class="fnav1" href="https://fr.wikipedia.org/wiki/%C3%89cosse">Ecosse</a></p>
+
+
+            <p class="fp"><a class="fnav1" href="https://fr.wikipedia.org/wiki/Espagne">Espagne</a></p>
+
+
+            <p class="fp"><a class="fnav1" href="https://fr.wikipedia.org/wiki/Gr%C3%A8ce">Grèce</a></p>
+
+
+            <p class="fp"><a class="fnav1" href="https://fr.wikipedia.org/wiki/Japon">Japon</a></p>
+
+        </nav>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                    <label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+            </ul>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
+    </footer>
+    <script src="voyage.js"></script>
 </body>
 
 </html>
