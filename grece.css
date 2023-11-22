@@ -26,6 +26,7 @@ p{
     max-width: 35vw;
     position: relative;
     margin: auto;
+    padding-bottom: 5vw;
 }
 
 
@@ -40,4 +41,12 @@ img {
 
 .fade {
     animation: fade 1.5s ease-in-out infinite;
+}
+
+/*fond noir diapo*/
+.diapo{
+    background-color: black;
+}
+#photo{
+    color: white;
 }
