@@ -17,14 +17,14 @@ body {
 .pinEcosse {
     position: absolute;
     width: 4vw;
-    margin-left: -30vw;
-    margin-top: 11vw;
+    margin-left: -69%;
+    margin-top: 25%;
 }
 
 .pinEspagne {
     position: absolute;
-    margin-left: -34vw;
-    margin-top: 26vw;
+    margin-left: -79%;
+    margin-top: 60%;
     width: 4vw;
 }
 
@@ -38,8 +38,8 @@ body {
 
 .pinGrèce {
     position: absolute;
-    margin-left: -14vw;
-    margin-top: 32vw;
+    margin-left: -31%;
+    margin-top: 68%;
     width: 4vw;
 }
 
@@ -59,8 +59,8 @@ body {
     display: none;
     width:7vw;
     position: absolute;
-    margin-top: -19vw;
-    margin-left: 24vw;
+    margin-top: -57%;
+    margin-left: 72%;
 }
 
 .pinJapon {
