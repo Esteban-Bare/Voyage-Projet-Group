@@ -42,7 +42,7 @@ h3{
 }
 
 p{
-    font-size: large;
+    font-size: x-large;
 }
 
 .textspain{
@@ -51,6 +51,7 @@ p{
     padding: 1%;
     margin-left: 1%;
     margin-right: 1%;
+    border: 2px solid black;
 }
 
 .h3descriptif{
@@ -112,3 +113,17 @@ p{
     margin-left: 5%;
     color: white;
 }
+
+.imgspain2{
+    width: 35%;
+    height: 1%;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
