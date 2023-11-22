@@ -20,10 +20,95 @@ body {
     width: 98vw;
 }
 
-h2{ 
-    text-align: center;
+h2 {
     background-color: rgb(19, 42, 32);
-    display:inline-block;
+    display: inline-block;
     padding: 1vw;
-    margin-left: 45vw;
+    margin-left: 42%;
+    font-size: 4vw;
+    text-decoration: underline #C81325;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 84%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+p{
+    font-size: large;
+}
+
+.textspain{
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.h3descriptif{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 84%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+.h3visiter{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 85%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+.h3gastronomie{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 81%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+.h3meteo{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 87%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
+}
+
+.h3photo{
+    text-decoration: underline;
+    font-size: 2vw;
+    background-color: rgb(19, 42, 32);
+    padding: 1%;
+    margin-right: 87%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    color: white;
 }

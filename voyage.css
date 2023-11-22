@@ -45,10 +45,10 @@ body {
 
 .animauxespagne {
     display: none;
-    width: 11vw;
+    width: 21%;
     position: absolute;
-    margin-top: -8vw;
-    margin-left: 8vw;
+    margin-top: -18%;
+    margin-left: 15%;
 }
 
 .pinEspagne:hover+.animauxespagne {
@@ -57,7 +57,7 @@ body {
 
 .animauxjapon {
     display: none;
-    width:7vw;
+    width:23%;
     position: absolute;
     margin-top: -57%;
     margin-left: 72%;
@@ -91,8 +91,20 @@ body {
 
 .animauxecosse {
     display: none;
-    width: 11vw;
+    width: 21%;
     position: absolute;
-    margin-top: -23vw;
-    margin-left: 11vw;
+    margin-top: -53%;
+    margin-left: 25%;
+}
+
+.animauxgrèce {
+    display: none;
+    width: 18%;
+    position: absolute;
+    margin-top: -37%;
+    margin-left: 65%;
+}
+
+.pinGrèce:hover+.animauxgrèce {
+    display: block;
 }

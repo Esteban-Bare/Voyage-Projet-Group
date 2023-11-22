@@ -81,7 +81,7 @@ h3{
 }
 
 p{
-    font-size: large;
+    font-size: x-large;
 }
 
 /*pour le diaporama commun avec grece*/
@@ -120,3 +120,19 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img{ 
+    width: 40vw;
+    height: 20vw;
+}
+
+.scot{
+    width: 5vw;
+    height: 3vw;
+}
+
