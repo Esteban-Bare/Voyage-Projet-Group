@@ -7,9 +7,11 @@ body{
 }
 /*css commun à chaque page du site*/
 h2{
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.544);
     font-size: 4vw;
     text-decoration: underline;
+    display: inline;
+   
 }
 
 h3{
@@ -21,9 +23,10 @@ p{
     font-size: x-large;
 }
 
-/*pour le diaporama commun avec ecosse*/
+/*pour le diaporama commun avec ecosse et espagne*/
+
 .slideshow-container {
-    max-width: 35vw;
+    width: 30vw;
     position: relative;
     margin: auto;
     padding-bottom: 5vw;
@@ -50,4 +53,10 @@ img {
 /*ecriture de photo en blanc suite u fond noir*/
 #photo{
     color: white;
+}
+
+/*liste a visiter*/
+.liste{
+    display: flex;
+    justify-content: center;
 }
