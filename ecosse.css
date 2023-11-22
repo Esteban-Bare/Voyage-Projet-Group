@@ -86,7 +86,7 @@ p{
 
 /*pour le diaporama*/
 .slideshow-container {
-    max-width: 30vw;
+    max-width: 35vw;
     position: relative;
     margin: auto;
 }
@@ -97,7 +97,7 @@ p{
 
 img {
     width: 100%;
-    height: auto;
+    height: 20vw;
 }
 
 .fade {
