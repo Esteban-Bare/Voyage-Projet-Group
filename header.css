@@ -1,21 +1,17 @@
 /*<<<<<<<<<<<<HEADER>>>>>>>>>>>*/
 
-header img {
-    width: 8vw;
-    height: 8vw;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     background-color: rgb(19, 42, 32);
-    height: 20vw;
+   
 }
 
 h1 {
-    font-size: 5vw;
-    margin-top: 14vw;
+    font-size: 3vw;
+    margin-top: 9vw;
+    text-align: center;
 }
 
 a {
@@ -25,8 +21,8 @@ a {
 
 .logo {
     background-image: url(asset/TGS_Voyage.jpeg);
-    width: 28vw;
-    height: 20vw;
+    width: 20vw;
+    height: 12vw;
     background-position: center;
     background-size: cover;
 }
@@ -71,7 +67,33 @@ a {
     
 }
 
-#image2 {
-    filter: invert(100%);
+#image {
+    padding-left: 5vw;
+    width: 10vw;
+    height: 10vw;
+    transform: translate(-50%, -50%);
+    animation: rotation 5s linear infinite;
 }
 
+#image2 {
+    filter: invert(100%);
+    width: 8vw;
+    height:8vw;
+    animation: marche 2s linear infinite;
+    
+}
+
+/*pour faire bouger le personnage*/
+@keyframes marche {
+    0% { transform: translateX(0) scaleX(1); }
+    25% { transform: translateX(20px) scaleX(1); }
+    50% { transform: translateX(0) scaleX(-1); }
+    75% { transform: translateX(-20px) scaleX(1); }
+    100% { transform: translateX(0) scaleX(1); }
+  }
+
+/*pour faire tourner le globe*/
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
