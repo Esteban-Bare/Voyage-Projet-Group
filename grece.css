@@ -47,6 +47,7 @@ img {
 .diapo{
     background-color: black;
 }
+/*ecriture de photo en blanc suite u fond noir*/
 #photo{
     color: white;
 }

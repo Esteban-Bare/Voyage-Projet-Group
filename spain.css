@@ -29,7 +29,7 @@ h2 {
     text-decoration: underline #C81325;
 }
 
-h3{
+h3 {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -41,11 +41,11 @@ h3{
     color: white;
 }
 
-p{
+p {
     font-size: x-large;
 }
 
-.textspain{
+.textspain {
     box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
     background-color: white;
     padding: 1%;
@@ -54,7 +54,7 @@ p{
     border: 2px solid black;
 }
 
-.h3descriptif{
+.h3descriptif {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -66,7 +66,7 @@ p{
     color: white;
 }
 
-.h3visiter{
+.h3visiter {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -78,7 +78,7 @@ p{
     color: white;
 }
 
-.h3gastronomie{
+.h3gastronomie {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -90,7 +90,7 @@ p{
     color: white;
 }
 
-.h3meteo{
+.h3meteo {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -102,7 +102,7 @@ p{
     color: white;
 }
 
-.h3photo{
+.h3photo {
     text-decoration: underline;
     font-size: 2vw;
     background-color: rgb(19, 42, 32);
@@ -114,7 +114,25 @@ p{
     color: white;
 }
 
-.imgspain2{
+.imgspain2 {
+    width: 35%;
+    height: 1%;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+    transition: transform 0.3s ease;
+}
+
+.imgspain2:hover{
+    transform: scale(1.2);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgspain3 {
     width: 35%;
     height: 1%;
     background-color: white;
@@ -122,8 +140,24 @@ p{
     border: 2px solid black;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-around;
+.slideshow-container {
+    max-width: 35vw;
+    position: relative;
+    margin: auto;
 }
 
+.slide {
+    display: none;
+}
+
+.imgspain4 {
+    width: 100%;
+    height: 20vw;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
