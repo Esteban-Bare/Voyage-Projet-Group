@@ -57,10 +57,17 @@ a {
 #menu2.active,
 #menu3.active {
     display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
 }
 
 #menu2 {
-    float: right;
+    right: 0;
+
+}
+
+#menu3{
+    
 }
 
 #image2 {
