@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     background-color: rgb(19, 42, 32);
-   
+
 }
 
 h1 {
@@ -54,8 +54,10 @@ a {
 #menu2.active,
 #menu3.active {
     display: block;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
 }
 
 #menu2 {
@@ -63,13 +65,24 @@ a {
 
 }
 
-#menu3.active{
+#menu3.active {
     padding-left: 3vw;
-    
+
 }
 
-.clickme{
-    color: white;   
+/*image globe et personnage*/
+
+.clickme {
+    color: white;
+    margin-bottom: 1vw;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
 #image {
@@ -82,25 +95,44 @@ a {
 #image2 {
     filter: invert(100%);
     width: 8vw;
-    height:8vw;
+    height: 8vw;
     animation: marche 2s linear infinite;
     padding-right: 2vw;
-    
+
 }
 
 /*pour faire bouger le personnage*/
 @keyframes marche {
-    0% { transform: translateX(0) scaleX(1); }
-    25% { transform: translateX(20px) scaleX(1); }
-    50% { transform: translateX(0) scaleX(-1); }
-    75% { transform: translateX(-20px) scaleX(1); }
-    100% { transform: translateX(0) scaleX(1); }
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    25% {
+        transform: translateX(20px) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    75% {
+        transform: translateX(-20px) scaleX(1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
 
 
-  }
+}
 
 /*pour faire tourner le globe*/
 @keyframes rotation {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

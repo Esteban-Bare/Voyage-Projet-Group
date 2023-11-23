@@ -2,13 +2,14 @@
 
 footer {
     background-color: rgb(19, 42, 32);
-    padding-bottom: 12vw;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
 }
 
- footer p{
-font-size: x-large;
- }
-  
+footer p {
+    font-size: x-large;
+}
+
 .fnav1 {
     padding-left: 10vw;
     padding-bottom: 1vw;
@@ -23,8 +24,43 @@ font-size: x-large;
     margin: 0;
 }
 
+.ftxt1 {
+    color: rgba(232, 169, 56);
+    font-size: 1vw;
+}
+
+.ftxt2 {
+    color: rgba(232, 169, 56);
+    font-size: 1vw;
+}
+
+.ftxt3 {
+    color: rgba(232, 169, 56);
+    font-size: 0.6vw;
+}
+
+h4 {
+    color: rgba(232, 169, 56);
+}
+
+.filn {
+    display: inline;
+}
+
+.fgd {
+    display: grid;
+}
+
 .flex {
     display: flex;
+}
+
+.finfos {
+    padding-left: 7vw;
+}
+
+.fwiki {
+    color: rgba(232, 169, 56);
 }
 
 .fp {
@@ -43,6 +79,7 @@ font-size: x-large;
 
 .fp:hover {
     color: rgba(232, 169, 56);
+    text-decoration: underline;
 
 }
 
