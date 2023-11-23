@@ -83,6 +83,7 @@ a {
     width: 8vw;
     height:8vw;
     animation: marche 2s linear infinite;
+    padding-right: 2vw;
     
 }
 
