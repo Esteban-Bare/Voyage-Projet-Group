@@ -5,6 +5,10 @@ footer {
     padding-bottom: 12vw;
 }
 
+ footer p{
+font-size: x-large;
+ }
+  
 .fnav1 {
     padding-left: 10vw;
     padding-bottom: 1vw;

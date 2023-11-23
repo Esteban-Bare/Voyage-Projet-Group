@@ -25,6 +25,7 @@ a {
     height: 12vw;
     background-position: center;
     background-size: cover;
+    margin-left: 6vw;
 }
 
 /* Style de base pour cacher le menu */
