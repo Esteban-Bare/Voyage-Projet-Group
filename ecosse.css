@@ -29,8 +29,8 @@ a {
     background-position: center;
     background-size: cover;
 }
-*/
-/* Style de base pour cacher le menu */
+
+                             Style de base pour cacher le menu 
 #menu,
 #menu2,
 #menu3 {
@@ -43,15 +43,15 @@ a {
     font-size: large;
 }
 
-/* Style de base pour l'image */
+                    Style de base pour l'image 
 #image,
 #image2,
 #europe {
     cursor: pointer;
-    /* Changement de curseur pour indiquer que l'image est cliquable */
 }
+    Changement de curseur pour indiquer que l'image est cliquable 
 
-/* Style du menu qui apparaît au clic */
+           Style du menu qui apparaît au clic 
 #menu.active,
 #menu2.active,
 #menu3.active {
@@ -66,9 +66,10 @@ a {
     filter: invert(100%);
 }
 
+*/
 
 
-/*/*Debut css pour ecosse */
+/*Debut css pour ecosse */
 
 h2{
     text-align: center;
@@ -97,7 +98,7 @@ p{
 }
 
 img {
-    width: 100%;
+    width: 30vw;
     height: 20vw;
 }
 

@@ -161,3 +161,23 @@ p {
 .fade {
     animation: fade 1.5s ease-in-out infinite;
 }
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgspain5 {
+    width: 35%;
+    height: 1%;
+    background-color: white;
+    padding: 2%;
+    border: 2px solid black;
+    margin-bottom: 1vw;
+}
