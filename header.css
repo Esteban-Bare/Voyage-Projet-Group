@@ -62,20 +62,17 @@ a {
 
 #menu2 {
     right: 0;
-
 }
 
 #menu3.active {
     padding-left: 3vw;
-
 }
 
 /*image globe et personnage*/
 
 .clickme {
     color: white;
-    margin-bottom: 1vw;
-    
+    margin-bottom: 1vw;   
 }
 
 .material-symbols-outlined {
@@ -100,7 +97,7 @@ a {
     left: 7vw;
     top: 7vw;
     width: 13vw;
-  }
+}
 
 
 #image2 {
@@ -108,8 +105,6 @@ a {
     width: 8vw;
     height: 8vw;
     animation: marche 2s linear infinite;
-    padding-right: 5%;
-
 }
 
 /*pour faire bouger le personnage
