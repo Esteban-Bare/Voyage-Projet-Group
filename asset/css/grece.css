@@ -1,5 +1,5 @@
 body{
-    background-image: url(asset/img-grece/grece-santorinifond.jpg);
+    background-image: url(../img-grece/grece-santorinifond.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -7,18 +7,18 @@ body{
     
 }
 .baklava1:hover{
-    background-image: url(asset/img-grece/baklava.webp);
+    background-image: url(../img-grece/baklava.webp);
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;
     border: white solid 2px;
 }
 .boug1:hover{
-    background-image: url(asset/img-grece/82Bcon2Blogo-1.jpg);
+    background-image: url(../img-grece/82Bcon2Blogo-1.jpg);
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;
@@ -27,16 +27,16 @@ body{
 .boul1:hover{
     background-image: url();
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;
     border: white solid 2px;
 }
 .amy1:hover{
-    background-image: url(asset/img-grece/amygdalota.jpg);
+    background-image: url(../img-grece/amygdalota.jpg);
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;
@@ -45,7 +45,7 @@ body{
 .dol1:hover{
     background-image: url();
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;
@@ -54,7 +54,7 @@ body{
 .elli1:hover{
     background-image: url();
     background-size: cover;
-    max-width: 80vw;
+    width: 60vw;
     height: 35vw;
     display: flex;
     background-position: center;

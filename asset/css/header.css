@@ -20,7 +20,7 @@ a {
 }
 
 .logo {
-    background-image: url(asset/TGS_Voyage.jpeg);
+    background-image: url(../TGS_Voyage.jpeg);
     width: 20vw;
     height: 12vw;
     background-position: center;

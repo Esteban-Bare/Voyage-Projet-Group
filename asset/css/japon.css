@@ -1,6 +1,6 @@
 body {
     background-color: blue;
-    background-image: url(asset/img_jap/jap_flag.jpeg);
+    background-image: url(../img_jap/jap_flag.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
