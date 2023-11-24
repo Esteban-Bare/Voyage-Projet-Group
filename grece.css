@@ -6,7 +6,7 @@ body{
     background-position: center;
     
 }
-.baklava:hover{
+.baklava1:hover{
     background-image: url(asset/img-grece/baklava.webp);
     background-size: cover;
     max-width: 80vw;
@@ -15,7 +15,7 @@ body{
     background-position: center;
     border: white solid 2px;
 }
-.boug:hover{
+.boug1:hover{
     background-image: url(asset/img-grece/82Bcon2Blogo-1.jpg);
     background-size: cover;
     max-width: 80vw;
@@ -24,7 +24,7 @@ body{
     background-position: center;
     border: white solid 2px;
 }
-.boul:hover{
+.boul1:hover{
     background-image: url();
     background-size: cover;
     max-width: 80vw;
@@ -33,7 +33,7 @@ body{
     background-position: center;
     border: white solid 2px;
 }
-.amy:hover{
+.amy1:hover{
     background-image: url(asset/img-grece/amygdalota.jpg);
     background-size: cover;
     max-width: 80vw;
@@ -42,7 +42,7 @@ body{
     background-position: center;
     border: white solid 2px;
 }
-.dol:hover{
+.dol1:hover{
     background-image: url();
     background-size: cover;
     max-width: 80vw;
@@ -51,7 +51,7 @@ body{
     background-position: center;
     border: white solid 2px;
 }
-.elli:hover{
+.elli1:hover{
     background-image: url();
     background-size: cover;
     max-width: 80vw;
