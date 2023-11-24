@@ -75,6 +75,7 @@ a {
 .clickme {
     color: white;
     margin-bottom: 1vw;
+    
 }
 
 .material-symbols-outlined {
@@ -86,22 +87,32 @@ a {
 }
 
 #image {
-    width: 9vw;
-    height: 9vw;
-    transform: translate(-50%, -50%);
-    animation: rotation 5s linear infinite;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 2vw;
 }
+
+/*avion*/
+.icon-container {
+    position: relative;
+    transform: translate(-50%, -50%);
+    animation: rotateIcon 5s linear infinite; /* Réglez la durée et le type d'animation selon vos besoins */
+    left: 7vw;
+    top: 7vw;
+    width: 13vw;
+  }
+
 
 #image2 {
     filter: invert(100%);
     width: 8vw;
     height: 8vw;
     animation: marche 2s linear infinite;
-    padding-right: 2vw;
+    padding-right: 5%;
 
 }
 
-/*pour faire bouger le personnage*/
+/*pour faire bouger le personnage
 @keyframes marche {
     0% {
         transform: translateX(0) scaleX(1);
@@ -124,15 +135,14 @@ a {
     }
 
 
-}
+}*/
 
-/*pour faire tourner le globe*/
-@keyframes rotation {
-    0% {
-        transform: rotate(0deg);
+/*pour faire tourner l'avion*/
+@keyframes rotateIcon {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
     }
-
-    100% {
-        transform: rotate(360deg);
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
     }
-}
+  }
