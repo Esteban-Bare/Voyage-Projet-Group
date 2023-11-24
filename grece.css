@@ -4,6 +4,7 @@ body{
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
+    
 }
 .baklava:hover{
     background-image: url(asset/img-grece/baklava.webp);
@@ -12,22 +13,70 @@ body{
     height: 35vw;
     display: flex;
     background-position: center;
+    border: white solid 2px;
+}
+.boug:hover{
+    background-image: url(asset/img-grece/82Bcon2Blogo-1.jpg);
+    background-size: cover;
+    max-width: 80vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.boul:hover{
+    background-image: url();
+    background-size: cover;
+    max-width: 80vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.amy:hover{
+    background-image: url(asset/img-grece/amygdalota.jpg);
+    background-size: cover;
+    max-width: 80vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.dol:hover{
+    background-image: url();
+    background-size: cover;
+    max-width: 80vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.elli:hover{
+    background-image: url();
+    background-size: cover;
+    max-width: 80vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
 }
 
 h2{
-    background-color: rgba(0, 0, 0, 0.425);
+    
     font-size: 4vw;
     text-decoration: underline;
     display: inline-block;
-    margin-left: 40vw;
-    color: white;
+    margin-left: 40vw;   
+     
+   
 }
 
 h3{
     text-decoration: underline;
     font-size: 2vw;
-    background-color:  rgba(0, 0, 0, 0.425);
+   
     color: white;
+   
 }
 
 p{
@@ -42,16 +91,20 @@ p{
     position: relative;
     margin: auto;
     padding-bottom: 5vw;
+   
 }
+
 
 
 .slide {
     display: none;
+    border: white solid 2px;
 }
 
 img {
     width: 100%;
     height: 20vw;
+    
 }
 
 .fade {
@@ -66,16 +119,17 @@ img {
 #photo{
     color: white;
     background-color: black;
+   
 }
 
 /*liste a visiter*/
 .liste{
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.425);
+   
     color: white;
 }
 .decrip{
-    background-color:  rgba(0, 0, 0, 0.425); 
+    
     color: white;
 }
