@@ -67,7 +67,7 @@ h2{
     text-decoration: underline;
     display: inline-block;
     margin-left: 40vw;   
-     
+    color: white;  
    
 }
 
@@ -101,7 +101,7 @@ p{
     border: white solid 2px;
 }
 
-img {
+.slide img{
     width: 100%;
     height: 20vw;
     
