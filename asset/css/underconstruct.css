@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0;
+}
+
+.uimg{
+    width: 97vw;
+}

@@ -1,0 +1,142 @@
+/*
+header img {
+    width: 8vw;
+    height: 8vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(19, 42, 32);
+    height: 20vw;
+}
+
+h1 {
+    font-size: 5vw;
+    margin-top: 14vw;
+}
+
+a {
+    color: rgb(232, 169, 56);
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url(asset/TGS_Voyage.jpeg);
+    width: 28vw;
+    height: 20vw;
+    background-position: center;
+    background-size: cover;
+}
+
+                             Style de base pour cacher le menu 
+#menu,
+#menu2,
+#menu3 {
+    display: none;
+    background-color: rgb(19, 42, 32);
+    color: rgb(232, 169, 56);
+    width: fit-content;
+    margin: 1vw;
+    padding: 0.5vw;
+    font-size: large;
+}
+
+                    Style de base pour l'image 
+#image,
+#image2,
+#europe {
+    cursor: pointer;
+}
+    Changement de curseur pour indiquer que l'image est cliquable 
+
+           Style du menu qui apparaît au clic 
+#menu.active,
+#menu2.active,
+#menu3.active {
+    display: block;
+}
+
+#menu2 {
+    float: right;
+}
+
+#image2 {
+    filter: invert(100%);
+}
+
+*/
+
+
+/*Debut css pour ecosse */
+
+h2{
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 2vw;
+    color: white;
+}
+
+p{
+    font-size: x-large;
+}
+
+/*pour le diaporama commun avec grece*/
+.slideshow-container {
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 30vw;
+    height: 20vw;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+/*@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}*/
+
+body{
+    background-image: url(../img-ecosse/menhir.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img{ 
+    width: 40vw;
+    height: 20vw;
+}
+
+.scot{
+    width: 5vw;
+    height: 3vw;
+}
+

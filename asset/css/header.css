@@ -1,0 +1,143 @@
+/*<<<<<<<<<<<<HEADER>>>>>>>>>>>*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(19, 42, 32);
+
+}
+
+h1 {
+    font-size: 3vw;
+    margin-top: 9vw;
+    text-align: center;
+}
+
+a {
+    color: rgb(232, 169, 56);
+    text-decoration: none;
+}
+
+.logo {
+    background-image: url(../TGS_Voyage.jpeg);
+    width: 20vw;
+    height: 12vw;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6vw;
+}
+
+/* Style de base pour cacher le menu */
+#menu,
+#menu2,
+#menu3 {
+    display: none;
+    background-color: rgb(19, 42, 32);
+    color: rgb(232, 169, 56);
+    width: fit-content;
+    margin: 1vw;
+    padding: 0.5vw;
+    font-size: large;
+}
+
+/* Style de base pour l'image */
+#image,
+#image2,
+#europe {
+    cursor: pointer;
+    /* Changement de curseur pour indiquer que l'image est cliquable */
+}
+
+/* Style du menu qui apparaît au clic */
+#menu.active,
+#menu2.active,
+#menu3.active {
+    display: block;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+}
+
+#menu2 {
+    right: 0;
+}
+
+#menu3.active {
+    padding-left: 3vw;
+}
+
+/*image globe et personnage*/
+
+.clickme {
+    color: white;
+    margin-bottom: 1vw;   
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+#image {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 2vw;
+}
+
+/*avion*/
+.icon-container {
+    position: relative;
+    transform: translate(-50%, -50%);
+    animation: rotateIcon 5s linear infinite; /* Réglez la durée et le type d'animation selon vos besoins */
+    left: 7vw;
+    top: 7vw;
+    width: 13vw;
+}
+
+
+#image2 {
+    filter: invert(100%);
+    width: 8vw;
+    height: 8vw;
+    animation: marche 2s linear infinite;
+}
+
+/*pour faire bouger le personnage
+@keyframes marche {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+
+    25% {
+        transform: translateX(20px) scaleX(1);
+    }
+
+    50% {
+        transform: translateX(0) scaleX(-1);
+    }
+
+    75% {
+        transform: translateX(-20px) scaleX(1);
+    }
+
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
+
+
+}*/
+
+/*pour faire tourner l'avion*/
+@keyframes rotateIcon {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }

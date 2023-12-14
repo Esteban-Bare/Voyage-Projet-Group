@@ -1,0 +1,72 @@
+body {
+    background-color: blue;
+    background-image: url(../img_jap/jap_flag.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: 0;
+}
+
+.jcolor {
+    color: #c50100;
+}
+
+.jcolor2 {
+    color: rgba(232, 169, 56);
+    text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
+}
+
+.jp1 {
+    font-size: x-large;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    color: rgba(232, 169, 56);
+    text-shadow: -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black, 2px 2px 2px black;
+}
+
+.jpadbot {
+    padding-bottom: 1vw;
+}
+
+.jpadingimg2 {
+    padding-bottom: 5vw;
+}
+
+.jimg {
+    width: 30vw;
+    padding-left: 33.5vw;
+    transition: transform 0.3s ease;
+}
+
+.jimg2 {
+    width: 30vw;
+    padding-left: 13vw;
+    transition: transform 0.3s ease;
+}
+
+.jimg2:hover {
+    transform: scale(1.5);
+}
+
+.jimg:hover {
+    transform: scale(1.5);
+}
+
+h2 {
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 2vw;
+}
+
+p {
+    font-size: x-large;
+}

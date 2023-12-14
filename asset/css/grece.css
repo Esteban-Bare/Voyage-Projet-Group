@@ -1,0 +1,135 @@
+body{
+    background-image: url(../img-grece/grece-santorinifond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.baklava1:hover{
+    background-image: url(../img-grece/baklava.webp);
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.boug1:hover{
+    background-image: url(../img-grece/82Bcon2Blogo-1.jpg);
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.boul1:hover{
+    background-image: url();
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.amy1:hover{
+    background-image: url(../img-grece/amygdalota.jpg);
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.dol1:hover{
+    background-image: url();
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+.elli1:hover{
+    background-image: url();
+    background-size: cover;
+    width: 60vw;
+    height: 35vw;
+    display: flex;
+    background-position: center;
+    border: white solid 2px;
+}
+
+h2{
+    
+    font-size: 4vw;
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 40vw;   
+    color: white;  
+   
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 2vw;
+   
+    color: white;
+   
+}
+
+p{
+    font-size: x-large;
+    
+}
+
+/*pour le diaporama commun avec ecosse et espagne*/
+
+.slideshow-container {
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    padding-bottom: 5vw;
+   
+}
+
+
+
+.slide {
+    display: none;
+    border: white solid 2px;
+}
+
+.slide img {
+    width: 100%;
+    height: 20vw;
+    
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+/*fond noir diapo*/
+.diapo{
+    background-color: black;
+}
+/*ecriture de photo en blanc suite u fond noir*/
+#photo{
+    color: white;
+    background-color: black;
+   
+}
+
+/*liste a visiter*/
+.liste{
+    display: flex;
+    justify-content: center;
+   
+    color: white;
+}
+.decrip{
+    
+    color: white;
+}
